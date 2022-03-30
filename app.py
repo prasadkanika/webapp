@@ -18,10 +18,12 @@ markdown= '''\n
  
 '''
 
-app =dash.Dash()
+app =dash.Dash(__name__)
+server = app.server
+
 app.layout = html.Div([
     dcc.Markdown(children=markdown)
 ])
 
 if __name__=="__main__":
-    app.run_server()
+    app.run_server(debug=True)
