@@ -1,6 +1,6 @@
 
 
-decorator nbformat python-dateutil pytz requests urllib3
+urllib3
 
 
 
