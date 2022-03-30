@@ -14,7 +14,7 @@ pandas-datareader
 dash-core-components
 dash-html-components
 dash-renderer
-
+matplotlib
 
 chardet
 click
