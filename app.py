@@ -10,7 +10,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 import base64
 
-wheels = pd.read_csv("/Users/guruprasadkanika/Downloads/datascience/Plotly-Dashboards-with-Dash-master/Data/wheels.csv")
+wheels = pd.read_csv("wheels.csv")
 
 def encode_img(img):
     encoded = base64.b64encode(open(img,'rb').read())
