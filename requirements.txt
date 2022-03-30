@@ -5,7 +5,7 @@ urllib3
 
 
 
-
+gunicorn
 dash
 plotly
 numpy
