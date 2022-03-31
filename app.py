@@ -10,6 +10,7 @@ from dash import Dash, dcc, html, Input, Output , State
 import base64
 from datetime import datetime
 from datetime import timedelta
+import pandas_datareader.data as web
 
 
 app =Dash(__name__)
