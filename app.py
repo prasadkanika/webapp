@@ -16,13 +16,13 @@ app =Dash(__name__)
 server = app.server
 #======================
 
-df = pd.read_csv("Select.csv")
+df = pd.read_csv("new.csv")
 df.set_index(keys='Issuer Name', inplace=True)
 
 options=[]
 for s in df.index:
     di={}
-    di['label']=df.loc[s].get(0)
+    di['label']=df.loc[s].get(2)
     di['value']=s
     options.append(di)
 options
